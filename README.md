@@ -58,7 +58,7 @@ Ensure you have the following installed:
 - Node.js
 - npm or yarn
 - MongoDB
-- Firebase account
+
 
 ### Installation
 
@@ -86,6 +86,15 @@ npm install
    ```plaintext
    MONGODB_URI=your_mongodb_uri
    JWT_SECRET=your_jwt_secret
+JWT_EXPIRES=your jwt expires
+
+COOKIE_EXPIRE=your cookie expire name 
+
+CLOUDINARY_CLOUD_NAME=your cloudinary cloud name
+
+CLOUDINARY_API_KEY=your CLOUDINARY_API_KEY name
+
+CLOUDINARY_API_SECRET=your api secret key
    ```
 
    Create a `.env` file in the `backend` directory  configuration:
